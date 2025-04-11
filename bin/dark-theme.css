@@ -1,0 +1,49 @@
+.root {
+    -fx-base: #2e2e2e;
+    -fx-background: #1e1e1e;
+    -fx-control-inner-background: #3b3b3b;
+    -fx-text-fill: #f0f0f0;
+}
+
+.label, .text {
+    -fx-text-fill: #f0f0f0;
+}
+
+.text-field, .combo-box, .date-picker {
+    -fx-background-color: #444;
+    -fx-text-fill: white;
+    -fx-background-radius: 5;
+}
+
+.list-view {
+    -fx-background-color: #333;
+    -fx-control-inner-background: #333;
+    -fx-cell-hover-color: #555;
+    -fx-text-fill: white;
+}
+
+.progress-bar {
+    -fx-accent: #00e676;
+}
+
+/* Button styles by ID */
+#add-btn { -fx-background-color: #28a745; }
+#save-btn { -fx-background-color: #20c997; }
+#load-btn { -fx-background-color: #17a2b8; }
+#delete-btn { -fx-background-color: #dc3545; }
+#undo-btn { -fx-background-color: #6c757d; }
+#overdue-btn { -fx-background-color: #ffc107; -fx-text-fill: black; }
+#done-btn { -fx-background-color: #6610f2; }
+#timer-btn { -fx-background-color: #fd7e14; }
+#theme-btn { -fx-background-color: #343a40; }
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-opacity: 0.85;
+}
